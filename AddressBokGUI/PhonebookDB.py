@@ -2,7 +2,7 @@ import mysql.connector
 
 db = mysql.connector.connect(host="localhost",  # your host
                             user="root",       # username
-                            passwd="Kvmz5687mnb1210!",     # password
+                            passwd="PASSWORD",     # password
                             db="phonebook")   # name of the database
 
 # Create a Cursor object to execute queries.
